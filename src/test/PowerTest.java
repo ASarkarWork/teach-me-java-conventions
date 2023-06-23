@@ -15,12 +15,12 @@ public class PowerTest {
     }
 
     @Test
-    public void TwoRaisedToTwoisFour() {
+    public void TwoRaisedToTwoIsFour() {
         assert PowerFinder.of(2, 2) == 4;
     }
 
     @Test
-    public void TwoRaisedToThreeIsNine() {
+    public void ThreeRaisedToTwoIsNine() {
         assert PowerFinder.of(3, 2) == 3*3;
     }
 }
